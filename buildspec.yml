@@ -17,6 +17,8 @@ phases:
 artifacts:
      files:
       - '**/*'
-     name: target
      discard-paths: yes
      base-directory: target
+     secondary-artifacts:
+        1234:
+           files: target/spring-boot.jar
