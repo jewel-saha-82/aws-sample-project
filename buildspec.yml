@@ -16,5 +16,4 @@ phases:
        
 artifacts:
      files:
-      #- target/spring-boot.jar
-      - trigger/zuba-pe.tar
+      - target/spring-boot.jar
