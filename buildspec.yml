@@ -17,5 +17,6 @@ phases:
 artifacts:
      files:
       - '**/*'
-     discard-paths: no
+     name: target
+     discard-paths: yes
      base-directory: target
